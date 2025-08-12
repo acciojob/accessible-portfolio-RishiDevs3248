@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+section {
+    margin-top: 20px;
+}
